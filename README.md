@@ -16,7 +16,7 @@ A ComfyUI custom node that brings Zonos Text-to-Speech capabilities to your work
 1. Clone this repository into your ComfyUI custom nodes directory:
 ```bash
 cd ComfyUI/custom_nodes/
-git clone https://github.com/BahaC/ComfyUI-ZonosTTS.git Zonos
+git clone https://github.com/BahaC/ComfyUI-ZonosTTS.git
 ```
 
 2. Install the requirements:
