@@ -8,7 +8,7 @@ A ComfyUI custom node that brings Zonos Text-to-Speech capabilities to your work
 - 🗣️ Voice cloning from reference audio
 - 💾 Local model caching for faster loading
 - 🎚️ Advanced parameter control for speech generation
-- 🌍 Support for English and Japanese
+- 🌍 Support for English, Japanese and many other languages.
 - ⚡ Multiple model architectures (Transformer/Hybrid)
 
 ## Installation
