@@ -1,0 +1,15 @@
+[project]
+name = "zonostts"
+description = "A ComfyUI custom node that brings Zonos Text-to-Speech capabilities to your workflows, featuring high-quality speech synthesis and voice cloning."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.0.0", "torchaudio>=2.0.0", "safetensors>=0.3.0", "huggingface_hub>=0.16.0", "tqdm>=4.65.0", "zonos"]
+
+[project.urls]
+Repository = "https://github.com/BahaC/ComfyUI-ZonosTTS"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ZonosTTS"
+Icon = ""
