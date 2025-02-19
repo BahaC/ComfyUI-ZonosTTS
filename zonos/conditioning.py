@@ -4,8 +4,8 @@ from typing import Any, Literal, Iterable
 import torch
 import torch.nn as nn
 
-from zonos.config import PrefixConditionerConfig
-from zonos.utils import DEFAULT_DEVICE
+from .config import PrefixConditionerConfig
+from .utils import DEFAULT_DEVICE
 
 
 class Conditioner(nn.Module):

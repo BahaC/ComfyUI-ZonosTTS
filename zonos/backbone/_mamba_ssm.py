@@ -3,7 +3,7 @@ import torch.nn as nn
 from mamba_ssm.models.mixer_seq_simple import create_block
 from mamba_ssm.ops.triton.layer_norm import layer_norm_fn
 
-from zonos.config import BackboneConfig, InferenceParams
+from ...zonos.config import BackboneConfig, InferenceParams
 
 
 class ZonosBackbone(nn.Module):
