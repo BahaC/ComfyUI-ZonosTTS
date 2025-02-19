@@ -7,14 +7,14 @@ import torch.nn as nn
 from huggingface_hub import hf_hub_download
 from tqdm import tqdm
 
-from zonos.autoencoder import DACAutoencoder
-from zonos.backbone import ZonosBackbone
-from zonos.codebook_pattern import apply_delay_pattern, revert_delay_pattern
-from zonos.conditioning import PrefixConditioner
-from zonos.config import InferenceParams, ZonosConfig
-from zonos.sampling import sample_from_logits
-from zonos.speaker_cloning import SpeakerEmbeddingLDA
-from zonos.utils import DEFAULT_DEVICE
+from .autoencoder import DACAutoencoder
+from .backbone import ZonosBackbone
+from .codebook_pattern import apply_delay_pattern, revert_delay_pattern
+from .conditioning import PrefixConditioner
+from .config import InferenceParams, ZonosConfig
+from .sampling import sample_from_logits
+from .speaker_cloning import SpeakerEmbeddingLDA
+from .utils import DEFAULT_DEVICE
 
 
 class Zonos(nn.Module):

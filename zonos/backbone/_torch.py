@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
-from zonos.config import BackboneConfig, InferenceParams
+from ...zonos.config import BackboneConfig, InferenceParams
 
 
 def precompute_freqs_cis(seq_len: int, n_elem: int, base: float = 10000) -> torch.Tensor:
